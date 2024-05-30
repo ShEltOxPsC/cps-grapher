@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import xml.etree.ElementTree as ET
 
 # API connection details
-hostname = '172.16.200.50'
-api_key = 'LUFRPT1sWkdlMGxzOUF6L2R0SXFraEk0QjNac2pxQm89Qy8zTVhBOW9ZR0xLN1pwYjNiVzdIVFA2OTJTa2JhamltRTE5eG1UZzBlRzEvTG8zSVdjOEd5TEZVWHdPYWsrRA=='  # You can generate this key from the firewall's web interface
+hostname = 'firewallipaddress'
+api_key = 'apikey'  # You can generate this key from the firewall's web interface
 
 # Function to fetch CPS data via API
 def fetch_cps_data():
